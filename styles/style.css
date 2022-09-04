@@ -350,19 +350,19 @@ iframe {
     padding-top: 3rem;
     padding-bottom: 3rem;
     background: url("../images/parallax-light.jpg") repeat fixed 100%;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.favhub-title {
+/* .favhub-title {
     border: 3px solid black;
-}
+} */
 
 .favhub-elts {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     width: 25%;
     margin: 10px;
     /* display: flex; */
@@ -370,7 +370,7 @@ iframe {
 }
 
 .favhub-sub-elt {
-    border: 6px solid yellow;
+    /* border: 6px solid yellow; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -382,7 +382,7 @@ iframe {
     display: flex;
     justify-content: space-between;
     width: 60%;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     /* align-content: center; */
 
     /* position:relative; */
@@ -414,6 +414,64 @@ iframe {
 
 
 }
+
+
+/* Trending Section */
+
+.trending{
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(/images/bg-icon-empty.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.trending-content{
+    border: 3px solid red;
+    width:60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+
+.title-trending{
+    border: 3px solid black;
+}
+
+.articles-trending{
+    border: 20px solid yellow;
+    display:flex;
+    justify-content: space-between;
+    width: 60%;
+
+/* display: flex;
+justify-content: space-between;
+width: 60%; */
+
+}
+
+.article{
+    border: 3px solid green;
+    width:20%;
+/* width: 33.333%; */
+/* display:flex;
+flex-direction: column; */
+}
+.article img{
+width:100%;
+height: auto;
+}
+
+
+
 
 /* Utlities */
 
@@ -476,4 +534,8 @@ iframe {
 
 .green2 {
     -webkit-text-stroke: 2px #00802d;
+}
+
+.bottom-sep{
+    border-bottom: 1px solid black;
 }
