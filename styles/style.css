@@ -652,7 +652,145 @@ border-radius: 00.55rem;
 
 }
 
+/* Footer Section */
+footer{
+    background-color: #212121;
+    /* background-color: gray; */
+    border: 2px solid red;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-cont1{
+    border: 2px solid blue;
+    padding:1rem;
+    display: flex;
+    width: 60%;
+}
+
+.footer-cont2{
+    border: 2px solid green;
+    /* padding:5rem; */
+    display: flex;
+    width: 50%;
+}
+
+.footer-cont1-elt{
+    border: 2px solid purple;
+    /* padding:5rem; */
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-content: end;
+}
+
+.footer-cont2-elt{
+    border: 2px solid rgb(10, 160, 130);
+    /* padding:5rem; */
+    
+}
+
+.cont1-elts{
+    border: 2px solid rgb(255, 255, 255);
+    /* padding:5rem; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2rem;
+    width: 33.33333%;
+    margin-left: 10px;
+}
+
+.footer-cont12-elt{
+    border: 2px solid rgb(213, 213, 30);
+    padding:2rem;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:50%;
+}
+
+.app-stores img{
+    width:30%;
+    height: auto;
+}
+.terms-of-cond{
+    border: 2px solid orange;
+    display: flex;
+}
+
+.margin-left{
+    margin-left:10px;
+}
+
+.footer-cont1-elt h6,.footer-cont12-elt h6{
+    color:#B6B6B6;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-cont1-elt p{
+    color: #646464;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+
+.footer-cont1-elt ul{
+    list-style: none;
+}
+
+.footer-cont1-elt ul a{
+color:#f9f9f9;
+text-decoration: none;
+}
+
+/* .footer-cont1-elt a:hover{
+    text-un
+} */
+
+.footer-cont12-elt p,a{
+    color:#f9f9f9;
+    margin-top: 0.6rem;
+}
+
+.gray{
+
+    color: #646464 !important;
+    margin-top: 1rem;
+}
+
+.terms-of-cond p{
+    font-size: 0.5rem;
+    margin-top: 0 !important;
+}
+
+
+input[type="email"]
+{
+    background: transparent;
+    border: none;
+    border-bottom:1px solid white;
+}
+
+.emaill{
+    display: flex;
+}
+.emaill button{
+    width:1000%;
+}
+
+.contact-em,.contact-phone{
+/* border: 3px solid red; */
+display: flex;
+justify-content: start;
+margin-top: 0.4rem;
+}
 
 
 /* Utlities */
