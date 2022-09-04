@@ -124,7 +124,7 @@ nav ul li a:hover {
 .found-sect-content {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
     /* flex-direction: column; */
 }
@@ -184,13 +184,58 @@ nav ul li a:hover {
     background-color: rgba(246, 226, 231, 255);
 }
 
+/* Section 3 : Vision section */
+
+.vision {
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("../images/backgroundsec3.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: repeat;
+
+
+}
+
+.vision-content{/*hasssss flex*/
+
+    margin:0 auto;
+    width:70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.vision-content h3{
+    font-size:3.5vh;
+    color: #fff;
+    margin-bottom: 2.7rem;
+    font-weight:bolder;
+}
+
+/* .toremove{
+    width:60%;
+    align-self: center;
+} */
+
+iframe{
+    align-self: center;
+} 
+
+
+
+
 /* Utlities */
 
 .container {
     padding: 0 12vh;
     width: 100%;
     height: 100vh;
-    border: 5px solid green;
+    /* border: 5px solid green; */
 }
 
 .btn-main {
