@@ -514,17 +514,26 @@ flex-direction: column; */
 .program-content-container {
     border: 3px solid red;
     width: 100%;
-    padding: 2rem;
+    /* margin:3rem; */
+ 
 }
 
 .content-pics {
     border: 3px solid green;
-    padding: 1rem;
+    /* margin:3rem; */
+    display: flex;
+
+}
+.prog-logo-left img{
+    width:50%;
+    height:auto;
+
 }
 
 .content-button {
     border: 3px solid blue;
-    padding: 1rem;
+    margin:3rem;
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -534,14 +543,21 @@ flex-direction: column; */
 
 .prog-logo-left{
     border: 3px solid yellow;
-    padding: 1rem;
+    margin:3rem;
+    width:30%;
+  
 }
 
 .prog-icons{
     border: 3px solid white;
-    padding: 1rem;
+    margin:3rem;
+   
 }
 
+.prog-icon{
+    border: 3px solid purple;
+    margin:3rem;
+}
 
 
 /* Utlities */
