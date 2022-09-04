@@ -266,6 +266,7 @@ iframe{
 .options-container{
     display: flex;
     justify-content: space-between ;
+    position:relative;
 }
 .options-container-elt{
     margin-bottom: 0.5rem;
@@ -291,10 +292,31 @@ iframe{
     color: #646464;
     margin-bottom: 0.8rem;
     margin-top: 0.5rem;
+    font-size: 1.1rem;
 
 }
 .options-container-elt ul{
     list-style-image: url('/images/bullet5.png');
+}
+.appstore-container p{
+    font-size: 1.2rem;
+    color: #646464;
+    margin: 1rem 1rem 0;
+    font-weight:900;
+    /* color: red; */
+}
+
+.appstore-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.stores-imgs img{
+    /* border: 3px solid purple; */
+    max-width:90%;
+    height:auto;
+    margin: 1rem 1rem 0;
+    width: 280px;
 }
 
 
@@ -335,4 +357,13 @@ iframe{
 
 .nav-button:hover {
     background: rgba(255, 255, 255, 0.5);
+}
+
+.margin-top{
+    margin-top: 3rem;
+    /* position:absolute;
+    bottom: 3%;
+    right:28%; */
+
+
 }
