@@ -670,14 +670,16 @@ footer{
     border: 2px solid blue;
     padding:1rem;
     display: flex;
-    width: 60%;
+    width: 80%;
 }
 
 .footer-cont2{
     border: 2px solid green;
     /* padding:5rem; */
     display: flex;
-    width: 50%;
+    justify-content: space-between;
+
+    width: 80%;
 }
 
 .footer-cont1-elt{
@@ -706,6 +708,9 @@ footer{
     margin-left: 10px;
 }
 
+.cont1-elts li{
+margin-top: 1vh;
+}
 .footer-cont12-elt{
     border: 2px solid rgb(213, 213, 30);
     padding:2rem;
@@ -791,6 +796,33 @@ display: flex;
 justify-content: start;
 margin-top: 0.4rem;
 }
+
+/* .contact-em{
+    margin-top: 1rem;
+} */
+
+
+.footer-cont2-elt p {
+    color:#f9f9f9;
+    font-size: 1rem;
+}
+
+
+
+.footer-cont2-elt ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-cont2-elt ul li{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
 
 
 /* Utlities */
