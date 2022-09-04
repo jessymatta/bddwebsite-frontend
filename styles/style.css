@@ -217,17 +217,33 @@ nav ul li a:hover {
     font-weight:bolder;
 }
 
-/* .toremove{
-    width:60%;
-    align-self: center;
-} */
 
 iframe{
     align-self: center;
 } 
 
+/* Join BDD section */
 
+.joinbdd{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    overflow: hidden; 
+}
 
+.joinbdd-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-notitle{
+    display: flex;
+}
+
+.options-container{
+    display: flex;
+    justify-content: space-between ;
+
+}
 
 /* Utlities */
 
