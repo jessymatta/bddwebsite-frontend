@@ -1089,6 +1089,12 @@ margin-top: 2rem;
 width:50%;
 height: auto;
 }
+
+.hero-heading {
+width:50vw;
+height: auto;
+font-size: 1.4rem;
+}
 }
 
 /* Tablet Devices */
